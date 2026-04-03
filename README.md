@@ -31,6 +31,7 @@ AI_Deepfake_Detection/
 ├── test.py              # Command-line image testing script
 ├── model.h5             # Trained MobileNetV2 model (binary classifier)
 ├── requirements.txt     # Python dependencies
+├── runtime.txt          # Python 3.10 runtime for cloud deployment
 ├── test.jpg             # Sample test image
 └── dataset/             # Training data (not included — see below)
     ├── real/            # Real face images
@@ -146,13 +147,14 @@ Dense(1, sigmoid)   →   0 = REAL,  1 = FAKE
 ## 📦 Dependencies
 
 ```
-tensorflow
-opencv-python
-numpy
 streamlit
-scikit-learn
+tensorflow==2.15.0
+opencv-python-headless
+numpy==1.24.3
 pillow
+scikit-learn
 matplotlib
+h5py
 ```
 
 Install all with:
