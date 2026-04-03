@@ -1,7 +1,8 @@
-tensorflow
-opencv-python
-numpy
 streamlit
-scikit-learn
+tensorflow==2.15.0
+opencv-python-headless
+numpy==1.24.3
 pillow
+scikit-learn
 matplotlib
+h5py
