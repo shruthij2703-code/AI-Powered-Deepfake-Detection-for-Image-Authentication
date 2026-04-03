@@ -148,9 +148,9 @@ Dense(1, sigmoid)   →   0 = REAL,  1 = FAKE
 
 ```
 streamlit
-tensorflow==2.15.0
-opencv-python-headless
-numpy==1.24.3
+tensorflow==2.13.0
+opencv-python-headless==4.8.1.78
+numpy==1.23.5
 pillow
 scikit-learn
 matplotlib
