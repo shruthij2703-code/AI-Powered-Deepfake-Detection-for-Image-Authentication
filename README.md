@@ -31,7 +31,7 @@ AI_Deepfake_Detection/
 ├── test.py              # Command-line image testing script
 ├── model.h5             # Trained MobileNetV2 model (binary classifier)
 ├── requirements.txt     # Python dependencies
-├── runtime.txt          # Python 3.10 runtime for cloud deployment
+├── .python-version      # Python 3.10 runtime for cloud deployment
 ├── test.jpg             # Sample test image
 └── dataset/             # Training data (not included — see below)
     ├── real/            # Real face images
